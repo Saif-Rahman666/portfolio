@@ -74,11 +74,9 @@ const moon = new THREE.Mesh(
     normalMap: normalTexture
   })
 );
-scene.add(moon)
-
 moon.position.z = 30;
 moon.position.setX(-10);
-
+scene.add(moon)
 saif.position.z = -5;
 saif.position.x = 2;
 //Scrolling animation
