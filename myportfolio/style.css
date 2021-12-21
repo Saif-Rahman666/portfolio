@@ -67,3 +67,14 @@ blockquote p {
 .left {
   grid-column: 6 / 12;
 }
+.dataIcon {
+  height: 30px;
+  width: 30px;
+  margin: 10px 10px 0px 0px ;
+}
+.infData {
+  display: grid; 
+  grid-template-columns: 20% 80%;  
+  align-items: center;
+
+}
